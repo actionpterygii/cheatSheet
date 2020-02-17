@@ -14,8 +14,14 @@
 ### インストールされているpythonバージョン確認
 `pyenv versions`
 
+### 全体で使われるpythonバージョン確認
+`pyenv global`
+
 ### 全体で使われるpythonバージョン指定
 `pyenv global {{ PYTHON_VERSION }}`
+
+### いるディレクトリ以下で使われるpythonバージョン確認
+`pyenv local`
 
 ### いるディレクトリ以下で使われるpythonバージョン指定
 `pyenv local {{ PYTHON_VERSION }}`
