@@ -12,7 +12,7 @@
 `pyenv install {{ PYTHON_VERSION }}`
 
 ### インストールされているpythonバージョン確認
-`pyenv ls`
+`pyenv versions`
 
 ### 全体で使われるpythonバージョン指定
 `pyenv global {{ PYTHON_VERSION }}`
